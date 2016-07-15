@@ -1,0 +1,62 @@
+.highlighted{
+    background-color:yellow;
+}
+
+pre{
+    white-space: pre-wrap;
+}
+
+.placeholder{
+    background-color:#ffc48f;
+}
+.optionalplaceholder{
+    background-color: #cde4ff;
+}
+
+.menubackground{
+    background-color:grey !important;
+
+}
+@font-face {
+    font-family: 'NewsGothicCDLB';
+    src: url('../fonts/NewsGothicBT-Roman.eot');
+    src: url('../fonts/NewsGothicBT-Roman.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NewsGothicBT-Roman.woff') format('woff'),
+    url('../fonts/NewsGothicBT-Roman.ttf') format('truetype'),
+    url('../fonts/NewsGothicBT-Roman.svg#NewsGothicBT-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.mce-content-body{
+    font-family: "NewsGothicCDLB";
+    font-size: 6.3pt !important;
+    margin : 5px;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    transform-origin: top left;
+    -ms-transform-origin: top left;
+    -webkit-transform:scale(2);
+    -moz-transform:scale(2);
+    -ms-transform:scale(2);
+    transform:scale(2);
+    word-wrap: break-word;
+}
+
+.mce-content-body *{
+    margin : 0px;
+}
+
+.menucolor{
+    color: black !important;
+}
+
+.mce-item-table, .mce-item-table td, .mce-item-table th, .mce-item-table caption {
+    border: 1px solid #bbb;
+}
+
+pre {
+    white-space: pre-wrap !important;
+    background-color: #FFFFFF;
+    border: 0px;
+}
+
